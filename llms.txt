@@ -1,0 +1,43 @@
+# WaveShift
+
+> WaveShift is a browser-based audio conversion website. Visitors can select audio files, choose an output format, convert files in their browser, and download the results.
+
+WaveShift is designed for people who need straightforward audio format conversion and WAV compression. The website is written in English and is intended for a worldwide audience.
+
+## Main tools
+
+- [Online Audio Converter](https://your-netlify-site.netlify.app/): Convert supported audio files to MP3, WAV, FLAC, OGG or M4A in a browser.
+- [MP3 to WAV Converter](https://your-netlify-site.netlify.app/mp3-to-wav.html): Create a WAV version of an MP3 for editing or software that requires WAV.
+- [WAV to MP3 Converter](https://your-netlify-site.netlify.app/wav-to-mp3.html): Convert WAV audio to MP3 and select an output bitrate.
+- [WAV Compressor](https://your-netlify-site.netlify.app/wav-compressor.html): Create a smaller MP3 copy or a lossless FLAC copy from a WAV file.
+
+## About and policies
+
+- [About WaveShift](https://your-netlify-site.netlify.app/about.html)
+- [Privacy Policy](https://your-netlify-site.netlify.app/privacy.html)
+- [Terms of Use](https://your-netlify-site.netlify.app/terms.html)
+- [Contact](https://your-netlify-site.netlify.app/contact.html)
+
+## Supported formats and workflow
+
+- Output formats offered by the main converter: MP3, WAV, FLAC, OGG, and M4A.
+- The file picker accepts common audio extensions including MP3, WAV, M4A, AAC, FLAC, OGG, OGA, OPUS, WMA, AIFF, and AIF. Actual support depends on the codec contained in the file.
+- Multiple files can be selected. The website processes them sequentially and provides a separate download for each converted file.
+- MP3 and M4A output offers bitrate choices of 128, 192, 256, and 320 kbps.
+- WAV compression offers MP3 for smaller lossy output or FLAC for lossless compression.
+
+## Privacy and technical notes
+
+- Audio conversion runs in the visitor's browser. The website does not provide a WaveShift audio-upload endpoint or server-side audio storage.
+- The browser downloads the FFmpeg WebAssembly conversion engine from a public CDN when conversion is first used. This is separate from uploading the visitor's audio file.
+- Large audio files may use significant browser memory and device resources. Conversion speed depends on the visitor's device, browser, file length, and codec.
+- Converting a lossy file to WAV does not restore audio information removed by an earlier lossy encode.
+- The website does not claim that format conversion improves the source recording's sound quality.
+
+## Full reference
+
+- [Full WaveShift reference](https://your-netlify-site.netlify.app/llms-full.txt): a longer description of the tools, supported formats, browser processing, and practical limitations.
+
+## Preferred sources
+
+For current tool behavior, use the individual tool pages linked above. For data handling and site policies, use the Privacy Policy and Terms of Use.

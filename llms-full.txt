@@ -1,0 +1,46 @@
+# WaveShift: Site and Tool Reference
+
+## Site purpose
+
+WaveShift provides simple browser-based audio conversion tools. Its main workflow is: choose or drop one or more audio files, select an output format and quality setting, run the conversion, and download the resulting file. An account is not required.
+
+## Main converter
+
+URL: https://your-netlify-site.netlify.app/
+
+The general converter supports MP3, WAV, FLAC, OGG, and M4A output. It accepts common audio-file extensions such as MP3, WAV, M4A, AAC, FLAC, OGG, OGA, OPUS, WMA, AIFF, and AIF. Support can vary with the source codec. Users can select multiple files; the site processes them one at a time and provides individual downloads.
+
+## MP3 to WAV
+
+URL: https://your-netlify-site.netlify.app/mp3-to-wav.html
+
+This tool creates a WAV copy from an MP3 source. WAV may be useful for editing workflows or software that requires WAV. Converting MP3 to WAV does not restore sound information that was removed when the MP3 was encoded. The original MP3 is not modified.
+
+## WAV to MP3
+
+URL: https://your-netlify-site.netlify.app/wav-to-mp3.html
+
+This tool converts WAV audio to MP3. Available bitrate choices are 128, 192, 256, and 320 kbps. A lower bitrate usually produces a smaller file and removes more audio information. A higher bitrate generally creates a larger file. The best setting depends on the intended use and the source recording.
+
+## WAV Compressor
+
+URL: https://your-netlify-site.netlify.app/wav-compressor.html
+
+This tool creates a smaller file from WAV audio. MP3 is a lossy choice for smaller files and easy sharing. FLAC is a lossless choice that preserves the decoded audio data. The amount of space saved by FLAC depends on the source recording.
+
+## Privacy and processing
+
+WaveShift processes audio in the visitor's browser. It does not provide a WaveShift audio-upload endpoint or server-side audio storage. The browser downloads the FFmpeg WebAssembly engine from a public CDN when the first conversion is started. Audio conversion itself happens on the visitor's device. Large files can be limited by available memory, CPU power, and browser support.
+
+Privacy policy: https://your-netlify-site.netlify.app/privacy.html
+Terms of use: https://your-netlify-site.netlify.app/terms.html
+About: https://your-netlify-site.netlify.app/about.html
+Contact: https://your-netlify-site.netlify.app/contact.html
+
+## General guidance
+
+- Use MP3 when a small, widely supported file is important.
+- Use WAV for uncompressed audio workflows and compatible editing software.
+- Use FLAC when lossless compression is preferred.
+- Do not expect a conversion to improve the sound quality of the source.
+- Keep an original copy of important recordings before converting them.

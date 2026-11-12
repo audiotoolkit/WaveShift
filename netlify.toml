@@ -1,6 +1,6 @@
 [build]
-  # Static HTML/CSS/JS site: no framework build step is required.
-  command = "echo 'WaveShift is a static site; no build step required.'"
+  # Generate canonical URLs, sitemap, robots.txt, and LLM-readable site files at build time.
+  command = "node scripts/generate-seo.mjs"
   publish = "."
 
 # Netlify automatically serves 404.html for missing paths.
