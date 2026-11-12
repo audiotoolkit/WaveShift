@@ -1,13 +1,13 @@
-# WaveShift — Fresh Audio Converter Website
+# WaveShift: Fresh Audio Converter Website
 
 A new, static, responsive audio-converter website designed for GitHub as the source-code repository and Netlify for hosting/deployment. This project is separate from the earlier AudioToolkit website.
 
 ## Included pages
 
-- `index.html` — general online audio converter
-- `mp3-to-wav.html` — dedicated MP3 to WAV tool and guide
-- `wav-to-mp3.html` — dedicated WAV to MP3 tool and guide
-- `wav-compressor.html` — WAV compression tool and guide (MP3 for smaller lossy files, FLAC for lossless compression)
+- `index.html` ,  general online audio converter
+- `mp3-to-wav.html` ,  dedicated MP3 to WAV tool and guide
+- `wav-to-mp3.html` ,  dedicated WAV to MP3 tool and guide
+- `wav-compressor.html` ,  WAV compression tool and guide (MP3 for smaller lossy files, FLAC for lossless compression)
 - `about.html`, `privacy.html`, `terms.html`, `contact.html`, `404.html`
 
 ## Functionality
@@ -19,7 +19,7 @@ A new, static, responsive audio-converter website designed for GitHub as the sou
 - Sequential batch conversion with individual download links
 - No audio upload endpoint or server-side file storage
 
-The first conversion downloads the single-thread FFmpeg WebAssembly engine from jsDelivr. A small worker bridge is served from this website to avoid trying to create the FFmpeg worker from a cross-origin CDN URL. Conversion itself runs in the visitor's browser. Large files may be limited by available device memory.
+The first conversion downloads the single-thread FFmpeg WebAssembly engine from jsDelivr. A small worker file is served from this website. This helps the browser load the conversion engine from a same-origin worker. Audio conversion runs on the visitor's device. Large files may be limited by available memory.
 
 ## GitHub + Netlify deployment
 
@@ -31,7 +31,7 @@ This folder contains a `netlify.toml` configured for a static site. No Node.js b
 4. In Netlify, choose **Add new project → Import an existing project → GitHub**, authorize GitHub, and select the repository.
 5. Netlify should detect `netlify.toml`. Confirm the settings are: build command `echo 'WaveShift is a static site; no build step required.'` and publish directory `.` (repository root). Then select **Deploy**.
 6. Netlify will provide a temporary `*.netlify.app` URL. Test all pages and conversions there.
-7. For later updates, push commits to the connected GitHub branch. Netlify will automatically build/deploy each push. You do not need to upload the ZIP again.
+7. For later updates, push changes to the connected GitHub branch. Netlify will deploy the updated site automatically. You do not need to upload the ZIP again.
 8. Add a custom domain in Netlify only after choosing the final domain. Then update canonical URLs, `sitemap.xml`, and `robots.txt` to use that domain.
 
 You can also deploy once by dragging the extracted project folder into Netlify Drop, but GitHub-connected deployment is recommended because future GitHub pushes deploy automatically.
@@ -40,8 +40,8 @@ You can also deploy once by dragging the extracted project folder into Netlify D
 
 1. Choose the final domain and add canonical URLs and a `sitemap.xml` with that real domain.
 2. Add the owner's real public contact email or a functioning contact form to `contact.html`.
-3. Review `privacy.html` and `terms.html` to match the final hosting, analytics, consent and advertising setup. The supplied pages are starter information, not legal advice.
-4. The Google Tag Manager container `GTM-TMVGCV79` from the previous project is included on all HTML pages. Check that its tags and consent configuration are correct for the new site.
+3. Review `privacy.html` and `terms.html` so they match your final hosting and advertising setup. These pages are starter information, not legal advice.
+4. No tracking or analytics scripts are included. Add them only if you decide to use them later, and update the privacy policy first.
 5. Configure AdSense only after approval. Add the actual publisher ID, ads.txt entry, consent handling and ad units supplied by Google; no placeholder ads or invented publisher ID are included.
 6. Verify the browser conversion engine and all output formats on the final Netlify HTTPS URL before launch.
 
@@ -56,4 +56,4 @@ The first launch focuses on the homepage, MP3 to WAV, WAV to MP3, and WAV compre
 - A same-origin worker bridge at `assets/js/ffmpeg-worker.js`.
 - Google Fonts: DM Sans and Manrope.
 
-The `@ffmpeg/core` package metadata identifies the core as GPL-2.0-or-later. Review the FFmpeg core and any linked codec/library licenses with a qualified professional before distributing the site commercially or monetizing it with ads. Do not assume that loading the core from a CDN removes license obligations.
+The `@ffmpeg/core` package metadata identifies the core as GPL-2.0-or-later. Review the FFmpeg core and any linked codec or library licenses before distributing the site commercially or using it to earn ad revenue. Loading the core from a CDN does not remove license obligations.
