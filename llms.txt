@@ -6,17 +6,17 @@ WaveShift is designed for people who need straightforward audio format conversio
 
 ## Main tools
 
-- [Online Audio Converter](https://your-netlify-site.netlify.app/): Convert supported audio files to MP3, WAV, FLAC, OGG or M4A in a browser.
-- [MP3 to WAV Converter](https://your-netlify-site.netlify.app/mp3-to-wav.html): Create a WAV version of an MP3 for editing or software that requires WAV.
-- [WAV to MP3 Converter](https://your-netlify-site.netlify.app/wav-to-mp3.html): Convert WAV audio to MP3 and select an output bitrate.
-- [WAV Compressor](https://your-netlify-site.netlify.app/wav-compressor.html): Create a smaller MP3 copy or a lossless FLAC copy from a WAV file.
+- [Online Audio Converter](https://waveshift.netlify.app/): Convert supported audio files to MP3, WAV, FLAC, OGG or M4A in a browser.
+- [MP3 to WAV Converter](https://waveshift.netlify.app/mp3-to-wav.html): Create a WAV version of an MP3 for editing or software that requires WAV.
+- [WAV to MP3 Converter](https://waveshift.netlify.app/wav-to-mp3.html): Convert WAV audio to MP3 and select an output bitrate.
+- [WAV Compressor](https://waveshift.netlify.app/wav-compressor.html): Create a smaller MP3 copy or a lossless FLAC copy from a WAV file.
 
 ## About and policies
 
-- [About WaveShift](https://your-netlify-site.netlify.app/about.html)
-- [Privacy Policy](https://your-netlify-site.netlify.app/privacy.html)
-- [Terms of Use](https://your-netlify-site.netlify.app/terms.html)
-- [Contact](https://your-netlify-site.netlify.app/contact.html)
+- [About WaveShift](https://waveshift.netlify.app/about.html)
+- [Privacy Policy](https://waveshift.netlify.app/privacy.html)
+- [Terms of Use](https://waveshift.netlify.app/terms.html)
+- [Contact](https://waveshift.netlify.app/contact.html)
 
 ## Supported formats and workflow
 
@@ -36,7 +36,7 @@ WaveShift is designed for people who need straightforward audio format conversio
 
 ## Full reference
 
-- [Full WaveShift reference](https://your-netlify-site.netlify.app/llms-full.txt): a longer description of the tools, supported formats, browser processing, and practical limitations.
+- [Full WaveShift reference](https://waveshift.netlify.app/llms-full.txt): a longer description of the tools, supported formats, browser processing, and practical limitations.
 
 ## Preferred sources
 

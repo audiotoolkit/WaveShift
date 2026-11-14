@@ -1,0 +1,680 @@
+[
+ {
+  "area": "meta",
+  "name": "404.html title",
+  "status": "PASS",
+  "detail": "Page Not Found | WaveShift"
+ },
+ {
+  "area": "meta",
+  "name": "404.html description",
+  "status": "PASS",
+  "detail": "The page you requested could not be found. Return to WaveShift online audio tools."
+ },
+ {
+  "area": "meta",
+  "name": "404.html html lang",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "404.html viewport",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "404.html one h1",
+  "status": "PASS",
+  "detail": "1 h1"
+ },
+ {
+  "area": "meta",
+  "name": "404.html noindex",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "about.html title",
+  "status": "PASS",
+  "detail": "About WaveShift | Browser Audio Tools"
+ },
+ {
+  "area": "meta",
+  "name": "about.html description",
+  "status": "PASS",
+  "detail": "Learn how WaveShift audio conversion works, what formats it supports, and how browser-based processing keeps files on your device."
+ },
+ {
+  "area": "meta",
+  "name": "about.html html lang",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "about.html viewport",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "about.html one h1",
+  "status": "PASS",
+  "detail": "1 h1"
+ },
+ {
+  "area": "canonical",
+  "name": "about.html canonical",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/about.html (expected https://waveshift.netlify.app/about.html)"
+ },
+ {
+  "area": "meta",
+  "name": "about.html not noindex",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "links",
+  "name": "about.html placeholder domain",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/about.html"
+ },
+ {
+  "area": "structured-data",
+  "name": "about.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "contact.html title",
+  "status": "PASS",
+  "detail": "Contact WaveShift | Feedback and Support"
+ },
+ {
+  "area": "meta",
+  "name": "contact.html description",
+  "status": "PASS",
+  "detail": "Contact WaveShift about audio conversion issues, browser compatibility, and feedback."
+ },
+ {
+  "area": "meta",
+  "name": "contact.html html lang",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "contact.html viewport",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "contact.html one h1",
+  "status": "PASS",
+  "detail": "1 h1"
+ },
+ {
+  "area": "canonical",
+  "name": "contact.html canonical",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/contact.html (expected https://waveshift.netlify.app/contact.html)"
+ },
+ {
+  "area": "meta",
+  "name": "contact.html not noindex",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "links",
+  "name": "contact.html placeholder domain",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/contact.html"
+ },
+ {
+  "area": "structured-data",
+  "name": "contact.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "index.html title",
+  "status": "PASS",
+  "detail": "Free Online Audio Converter | WaveShift"
+ },
+ {
+  "area": "meta",
+  "name": "index.html description",
+  "status": "PASS",
+  "detail": "Convert audio files to MP3, WAV, FLAC, OGG or M4A in your browser. No account is needed. Add files, choose a format and download the results."
+ },
+ {
+  "area": "meta",
+  "name": "index.html html lang",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "index.html viewport",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "index.html one h1",
+  "status": "PASS",
+  "detail": "1 h1"
+ },
+ {
+  "area": "canonical",
+  "name": "index.html canonical",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/ (expected https://waveshift.netlify.app/)"
+ },
+ {
+  "area": "meta",
+  "name": "index.html not noindex",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "links",
+  "name": "index.html placeholder domain",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/"
+ },
+ {
+  "area": "structured-data",
+  "name": "index.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "structured-data",
+  "name": "index.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "structured-data",
+  "name": "index.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "mp3-to-wav.html title",
+  "status": "PASS",
+  "detail": "MP3 to WAV Converter"
+ },
+ {
+  "area": "meta",
+  "name": "mp3-to-wav.html description",
+  "status": "PASS",
+  "detail": "Convert MP3 to WAV online in your browser. Create a WAV file for editing or apps that need WAV. No account or audio upload is needed."
+ },
+ {
+  "area": "meta",
+  "name": "mp3-to-wav.html html lang",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "mp3-to-wav.html viewport",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "mp3-to-wav.html one h1",
+  "status": "PASS",
+  "detail": "1 h1"
+ },
+ {
+  "area": "canonical",
+  "name": "mp3-to-wav.html canonical",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/mp3-to-wav.html (expected https://waveshift.netlify.app/mp3-to-wav.html)"
+ },
+ {
+  "area": "meta",
+  "name": "mp3-to-wav.html not noindex",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "links",
+  "name": "mp3-to-wav.html placeholder domain",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/mp3-to-wav.html"
+ },
+ {
+  "area": "structured-data",
+  "name": "mp3-to-wav.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "structured-data",
+  "name": "mp3-to-wav.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "privacy.html title",
+  "status": "PASS",
+  "detail": "Privacy Policy | WaveShift"
+ },
+ {
+  "area": "meta",
+  "name": "privacy.html description",
+  "status": "PASS",
+  "detail": "Read how WaveShift processes audio in your browser and explains third-party services, cookies, data and privacy."
+ },
+ {
+  "area": "meta",
+  "name": "privacy.html html lang",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "privacy.html viewport",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "privacy.html one h1",
+  "status": "PASS",
+  "detail": "1 h1"
+ },
+ {
+  "area": "canonical",
+  "name": "privacy.html canonical",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/privacy.html (expected https://waveshift.netlify.app/privacy.html)"
+ },
+ {
+  "area": "meta",
+  "name": "privacy.html not noindex",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "links",
+  "name": "privacy.html placeholder domain",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/privacy.html"
+ },
+ {
+  "area": "structured-data",
+  "name": "privacy.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "terms.html title",
+  "status": "PASS",
+  "detail": "Terms of Use | WaveShift"
+ },
+ {
+  "area": "meta",
+  "name": "terms.html description",
+  "status": "PASS",
+  "detail": "Read WaveShift terms for browser audio conversion, supported formats, lawful use, file quality and third-party services."
+ },
+ {
+  "area": "meta",
+  "name": "terms.html html lang",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "terms.html viewport",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "terms.html one h1",
+  "status": "PASS",
+  "detail": "1 h1"
+ },
+ {
+  "area": "canonical",
+  "name": "terms.html canonical",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/terms.html (expected https://waveshift.netlify.app/terms.html)"
+ },
+ {
+  "area": "meta",
+  "name": "terms.html not noindex",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "links",
+  "name": "terms.html placeholder domain",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/terms.html"
+ },
+ {
+  "area": "structured-data",
+  "name": "terms.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "wav-compressor.html title",
+  "status": "PASS",
+  "detail": "WAV Compressor"
+ },
+ {
+  "area": "meta",
+  "name": "wav-compressor.html description",
+  "status": "PASS",
+  "detail": "Compress WAV audio online. Choose MP3 for a smaller file or FLAC for lossless compression. Files are processed in your browser."
+ },
+ {
+  "area": "meta",
+  "name": "wav-compressor.html html lang",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "wav-compressor.html viewport",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "wav-compressor.html one h1",
+  "status": "PASS",
+  "detail": "1 h1"
+ },
+ {
+  "area": "canonical",
+  "name": "wav-compressor.html canonical",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/wav-compressor.html (expected https://waveshift.netlify.app/wav-compressor.html)"
+ },
+ {
+  "area": "meta",
+  "name": "wav-compressor.html not noindex",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "links",
+  "name": "wav-compressor.html placeholder domain",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/wav-compressor.html"
+ },
+ {
+  "area": "structured-data",
+  "name": "wav-compressor.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "structured-data",
+  "name": "wav-compressor.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "wav-to-mp3.html title",
+  "status": "PASS",
+  "detail": "WAV to MP3 Converter"
+ },
+ {
+  "area": "meta",
+  "name": "wav-to-mp3.html description",
+  "status": "PASS",
+  "detail": "Convert WAV to MP3 online in your browser. Choose 128, 192, 256 or 320 kbps and download a smaller audio file."
+ },
+ {
+  "area": "meta",
+  "name": "wav-to-mp3.html html lang",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "wav-to-mp3.html viewport",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "meta",
+  "name": "wav-to-mp3.html one h1",
+  "status": "PASS",
+  "detail": "1 h1"
+ },
+ {
+  "area": "canonical",
+  "name": "wav-to-mp3.html canonical",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/wav-to-mp3.html (expected https://waveshift.netlify.app/wav-to-mp3.html)"
+ },
+ {
+  "area": "meta",
+  "name": "wav-to-mp3.html not noindex",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "links",
+  "name": "wav-to-mp3.html placeholder domain",
+  "status": "FAIL",
+  "detail": "https://your-netlify-site.netlify.app/wav-to-mp3.html"
+ },
+ {
+  "area": "structured-data",
+  "name": "wav-to-mp3.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "structured-data",
+  "name": "wav-to-mp3.html JSON-LD parses",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "architecture",
+  "name": "404.html orphan check",
+  "status": "FAIL",
+  "detail": "no inbound anchor links"
+ },
+ {
+  "area": "sitemap",
+  "name": "namespace",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "no duplicates",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/ origin",
+  "status": "FAIL",
+  "detail": "origin https://your-netlify-site.netlify.app"
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/ file exists",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/mp3-to-wav.html origin",
+  "status": "FAIL",
+  "detail": "origin https://your-netlify-site.netlify.app"
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/mp3-to-wav.html file exists",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/wav-to-mp3.html origin",
+  "status": "FAIL",
+  "detail": "origin https://your-netlify-site.netlify.app"
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/wav-to-mp3.html file exists",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/wav-compressor.html origin",
+  "status": "FAIL",
+  "detail": "origin https://your-netlify-site.netlify.app"
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/wav-compressor.html file exists",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/about.html origin",
+  "status": "FAIL",
+  "detail": "origin https://your-netlify-site.netlify.app"
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/about.html file exists",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/contact.html origin",
+  "status": "FAIL",
+  "detail": "origin https://your-netlify-site.netlify.app"
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/contact.html file exists",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/privacy.html origin",
+  "status": "FAIL",
+  "detail": "origin https://your-netlify-site.netlify.app"
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/privacy.html file exists",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/terms.html origin",
+  "status": "FAIL",
+  "detail": "origin https://your-netlify-site.netlify.app"
+ },
+ {
+  "area": "sitemap",
+  "name": "https://your-netlify-site.netlify.app/terms.html file exists",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "about.html listed",
+  "status": "FAIL",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "contact.html listed",
+  "status": "FAIL",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "index.html listed",
+  "status": "FAIL",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "mp3-to-wav.html listed",
+  "status": "FAIL",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "privacy.html listed",
+  "status": "FAIL",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "terms.html listed",
+  "status": "FAIL",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "wav-compressor.html listed",
+  "status": "FAIL",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "wav-to-mp3.html listed",
+  "status": "FAIL",
+  "detail": ""
+ },
+ {
+  "area": "sitemap",
+  "name": "404 excluded",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "area": "robots",
+  "name": "sitemap reference",
+  "status": "FAIL",
+  "detail": "User-agent: *\nAllow: /\n\nSitemap: https://your-netlify-site.netlify.app/sitemap.xml"
+ },
+ {
+  "area": "robots",
+  "name": "no Disallow /",
+  "status": "PASS",
+  "detail": ""
+ }
+]

@@ -8,7 +8,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const fallback = 'https://your-netlify-site.netlify.app';
+const fallback = 'https://waveshift.netlify.app';
 const rawSiteUrl = process.env.SITE_URL || process.env.URL || fallback;
 let siteUrl;
 try {
@@ -17,9 +17,9 @@ try {
   console.error(`Invalid SITE_URL/URL value: ${rawSiteUrl}`);
   process.exit(1);
 }
-const usingFallback = siteUrl === fallback;
+const usingFallback = !process.env.SITE_URL && !process.env.URL;
 if (usingFallback) {
-  console.warn('WaveShift SEO: using the placeholder domain. Set SITE_URL in Netlify or deploy through a Git-connected Netlify site so the real URL can be used.');
+  console.warn(`WaveShift SEO: SITE_URL/URL not set; using default ${fallback}. Set SITE_URL in Netlify when a custom domain is the canonical host.`);
 } else {
   console.log(`WaveShift SEO: generating URLs for ${siteUrl}`);
 }
@@ -61,7 +61,7 @@ function setJsonLdUrls(html, canonical, title, description) {
       const data = JSON.parse(json);
       // Replace the generated WebPage and homepage WebSite blocks on every build.
       if (data && data['@type'] === 'WebPage' && data['@id']?.endsWith('#webpage')) return '';
-      if (data && data['@type'] === 'WebSite' && data['@id'] === `${siteUrl}/#website`) return '';
+      if (data && data['@type'] === 'WebSite' && String(data['@id'] || '').endsWith('/#website')) return '';
       const walk = (value) => {
         if (Array.isArray(value)) return value.forEach(walk);
         if (value && typeof value === 'object') {
@@ -100,7 +100,7 @@ function setJsonLdUrls(html, canonical, title, description) {
     };
     schemaTags.push(`<script type="application/ld+json">${JSON.stringify(websiteSchema)}</script>`);
   }
-  return html.replace(/<\/head>/i, `${schemaTags.join('')}\n</head>`);
+  return html.replace(/\s*<\/head>/i, `${schemaTags.join('')}\n</head>`);
 }
 
 for (const file of pageFiles) {
@@ -143,7 +143,7 @@ for (const file of pageFiles) {
     `<meta name="twitter:image:alt" content="WaveShift online audio converter"/>`,
   ];
   if (file === '404.html') metadata.push('<meta name="robots" content="noindex,follow"/>');
-  html = html.replace(/<\/head>/i, `${metadata.join('')}\n</head>`);
+  html = html.replace(/\s*<\/head>/i, `${metadata.join('')}\n</head>`);
   html = setJsonLdUrls(html, canonical, title, description);
   await writeFile(fullPath, html, 'utf8');
   pageInfo.push({ file, title, description, url: canonical });

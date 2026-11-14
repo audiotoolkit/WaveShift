@@ -1,0 +1,44 @@
+[
+ {
+  "page": "index.html",
+  "viewport": "mobile",
+  "lcp_ms": 188,
+  "cls": 0,
+  "local_transfer_bytes": 32991
+ },
+ {
+  "page": "index.html",
+  "viewport": "desktop",
+  "lcp_ms": 180,
+  "cls": 0,
+  "local_transfer_bytes": 32991
+ },
+ {
+  "page": "mp3-to-wav.html",
+  "viewport": "mobile",
+  "lcp_ms": 104,
+  "cls": 0,
+  "local_transfer_bytes": 32991
+ },
+ {
+  "page": "mp3-to-wav.html",
+  "viewport": "desktop",
+  "lcp_ms": 172,
+  "cls": 0,
+  "local_transfer_bytes": 32991
+ },
+ {
+  "page": "wav-compressor.html",
+  "viewport": "mobile",
+  "lcp_ms": 116,
+  "cls": 0,
+  "local_transfer_bytes": 32991
+ },
+ {
+  "page": "wav-compressor.html",
+  "viewport": "desktop",
+  "lcp_ms": 148,
+  "cls": 0,
+  "local_transfer_bytes": 32991
+ }
+]

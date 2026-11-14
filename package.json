@@ -1,0 +1,14 @@
+{
+  "name": "waveshift",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WaveShift static audio converter site (no runtime npm dependencies).",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate-seo.mjs",
+    "audit:static": "node audit/static-audit.mjs",
+    "audit:browser": "python3 audit/browser-audit.py",
+    "audit:perf": "python3 audit/perf-lab.py",
+    "audit": "npm run build && npm run audit:static && npm run audit:browser"
+  }
+}

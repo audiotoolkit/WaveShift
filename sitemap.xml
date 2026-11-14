@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://your-netlify-site.netlify.app/</loc></url>
-  <url><loc>https://your-netlify-site.netlify.app/mp3-to-wav.html</loc></url>
-  <url><loc>https://your-netlify-site.netlify.app/wav-to-mp3.html</loc></url>
-  <url><loc>https://your-netlify-site.netlify.app/wav-compressor.html</loc></url>
-  <url><loc>https://your-netlify-site.netlify.app/about.html</loc></url>
-  <url><loc>https://your-netlify-site.netlify.app/contact.html</loc></url>
-  <url><loc>https://your-netlify-site.netlify.app/privacy.html</loc></url>
-  <url><loc>https://your-netlify-site.netlify.app/terms.html</loc></url>
+  <url><loc>https://waveshift.netlify.app/</loc></url>
+  <url><loc>https://waveshift.netlify.app/mp3-to-wav.html</loc></url>
+  <url><loc>https://waveshift.netlify.app/wav-to-mp3.html</loc></url>
+  <url><loc>https://waveshift.netlify.app/wav-compressor.html</loc></url>
+  <url><loc>https://waveshift.netlify.app/about.html</loc></url>
+  <url><loc>https://waveshift.netlify.app/contact.html</loc></url>
+  <url><loc>https://waveshift.netlify.app/privacy.html</loc></url>
+  <url><loc>https://waveshift.netlify.app/terms.html</loc></url>
 </urlset>

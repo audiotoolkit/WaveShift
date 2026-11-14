@@ -70,3 +70,15 @@ See `SEO_SETUP.md` for domain setup, Search Console submission, and a launch che
 - Google Fonts: DM Sans and Manrope
 
 The `@ffmpeg/core` package metadata identifies the core as GPL-2.0-or-later. Review the FFmpeg core and any linked codec or library licences before commercial distribution or monetisation. Loading the core from a CDN does not remove licence obligations.
+
+## Repeatable audits (added in this audit)
+
+Requirements: Node.js 18+, Python 3 with `playwright` and a Chromium browser (`pip install playwright && playwright install chromium`).
+
+```
+npm run build          # regenerate sitemap.xml, robots.txt, llms*.txt, canonical/OG/JSON-LD (default origin https://waveshift.netlify.app, override with SITE_URL)
+npm run audit:static   # routes, internal links/anchors, metadata, canonicals, alt text, JSON-LD parse, sitemap, robots
+npm run audit:browser  # Chromium: status codes, console errors, 6 viewports overflow, mobile menu, tool UI, FAQ, DOM a11y checks
+npm run audit:perf     # lab-only LCP/CLS on local server
+```
+Results and limitations are recorded in `AUDIT-RESULTS.md`. Environment variables: see `.env.example` (only `SITE_URL`, optional).
